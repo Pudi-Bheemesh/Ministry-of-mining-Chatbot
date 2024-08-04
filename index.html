@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--This is A PROTOTYPE -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mining Chatbot </title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body class = "show-chatbot">
+  <button class="chatbot-toggler">
+    <span class="material-icons-outlined">mode_comment</span>
+    <span class="material-icons-outlined">close</span>
+
+  </button>
+  <div class="Chatbot">
+    <header>
+      <h2>Chatbot</h2>
+      <span class="material-icons-outlined">close</span>
+    </header>
+    <ul class="chatbox">
+      <li class="chat incoming">
+        <span class="material-icons-outlined">smart_toy</span>
+        <p>Hi there 👋 <br> How can I help you today?</p>
+      </li>
+    </ul>
+    <div class="chat-input">
+      <textarea placeholder="Enter a Message..." required></textarea>
+      <span id="send-btn" class="material-icons">send</span>
+    </div>
+  </div>
+</body>
+
+</html>
